@@ -440,7 +440,7 @@ box-shadow: 0 0 20px rgb(162, 162, 248);
 .watsapp{
     position:fixed;
    left: 10px;
-    top: 80%;
+    top: 90%;
 }
 
 .watsapp h5{
@@ -454,6 +454,18 @@ box-shadow: 0 0 20px rgb(162, 162, 248);
     line-height: 40px;
     border-radius: 50%;
    
+}
+
+.watsapp h5:hover{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    color: rgb(255, 255, 255);
+    background-color: #20b20f;
+    margin-right:0 10px 10px 0;
+    text-align: center;
+    line-height: 60px;
+    border-radius: 50%;
 }
 /*******watsapp*********/
  
@@ -489,19 +501,30 @@ box-shadow: 0 0 20px rgb(162, 162, 248);
  .topup{
     position:fixed;
    right: 10px;
-    top: 80%;
+    top: 90%;
 }
 
 .topup h5{
     display: inline-block;
     height: 40px;
     width: 40px;
-    color: rgb(255, 255, 255);
-    background-color: #af084e;
+    color: #af084e;
+   
     margin-right:0 10px 10px 0;
     text-align: center;
     line-height: 40px;
     border-radius: 50%;
     
    
+}
+
+.topup h5:hover{
+    color: rgb(255, 255, 255);
+    background-color: #af084e;
+
+}
+
+.topup:hover{
+    right: 10px;
+    top:88%;
 }
