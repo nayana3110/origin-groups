@@ -157,6 +157,7 @@ border-radius: 100px;
 }
 
 /******* training stats******/
+
 .stats{
     margin: 100px 0;
 
@@ -166,6 +167,19 @@ border-radius: 100px;
     text-align: center;
 
 }
+
+@media(max-width: 1000px){
+    .stats h1{
+        font-size: 1.5rem;
+        text-align: center;
+    
+    }
+    p{
+        font-size: 0.8rem;
+    }
+}
+
+
 /******* training stats******/
 
 
